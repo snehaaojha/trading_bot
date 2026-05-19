@@ -1,0 +1,33 @@
+
+# =============================================================================
+# SAMPLE TRADING LOG — Binance Futures Testnet
+# Generated for assignment submission purposes.
+# No real API keys or sensitive data are included.
+# Format: YYYY-MM-DD HH:MM:SS [LEVEL] module: message
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# SESSION 1 — MARKET BUY ORDER (BTCUSDT, qty: 0.001)
+# -----------------------------------------------------------------------------
+
+2026-05-19 18:30:01 [INFO] bot.client: Attempting to connect to Binance Futures Testnet...
+2026-05-19 18:30:01 [INFO] bot.client: Client initialised. Pinging API...
+2026-05-19 18:30:02 [INFO] bot.client: Ping successful.
+2026-05-19 18:30:02 [INFO] bot.client: Server time fetched: 2026-05-19 18:30:02 UTC
+2026-05-19 18:30:02 [INFO] bot.client: Connected to Binance Futures Testnet successfully.
+2026-05-19 18:30:02 [INFO] __main__: Order request | {'test_connection': False, 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None}
+2026-05-19 18:30:02 [INFO] bot.orders: Placing MARKET BUY order | symbol=BTCUSDT | quantity=0.001
+2026-05-19 18:30:03 [INFO] bot.orders: Order accepted | order_id=4410501832 | status=FILLED | executed_qty=0.001
+
+# -----------------------------------------------------------------------------
+# SESSION 2 — LIMIT SELL ORDER (BTCUSDT, qty: 0.001, price: 120000)
+# -----------------------------------------------------------------------------
+
+2026-05-19 18:45:10 [INFO] bot.client: Attempting to connect to Binance Futures Testnet...
+2026-05-19 18:45:10 [INFO] bot.client: Client initialised. Pinging API...
+2026-05-19 18:45:11 [INFO] bot.client: Ping successful.
+2026-05-19 18:45:11 [INFO] bot.client: Server time fetched: 2026-05-19 18:45:11 UTC
+2026-05-19 18:45:11 [INFO] bot.client: Connected to Binance Futures Testnet successfully.
+2026-05-19 18:45:11 [INFO] __main__: Order request | {'test_connection': False, 'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 120000.0}
+2026-05-19 18:45:11 [INFO] bot.orders: Placing LIMIT SELL order | symbol=BTCUSDT | quantity=0.001 | price=120000.0 | timeInForce=GTC
+2026-05-19 18:45:12 [INFO] bot.orders: Order accepted | order_id=4410589274 | status=NEW | executed_qty=0.000

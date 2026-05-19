@@ -20,6 +20,7 @@ env/
 
 # Logs
 logs/*.log
+!logs/sample_trading.log
 
 # IDE
 .vscode/
